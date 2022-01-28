@@ -3,10 +3,10 @@ Codecademy First Project: Mixed Messages
 
 ## Introduction
 
-Hello! This is my submission for the Mixed Messages Project! This will be my first project done independent of Codeacedemy's site.
+Hello! This is my submission for the Mixed Messages Project! This will be my first project done independent of Codecedemy's site.
 Any and all feedback is appreciated!
 
-### Random Loading Screen Quote Generator
+### Random Loading Screen Quote/Tip Generator
 
 #### General Description
 
