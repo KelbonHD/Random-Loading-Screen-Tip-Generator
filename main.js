@@ -10,6 +10,7 @@
      firstWord = firstWordArray[Math.floor(Math.random() * firstWordArray.length)];
      secondWord = secondWordArray[Math.floor(Math.random() * secondWordArray.length)];
      thirdWord = thirdWordArray[Math.floor(Math.random() * thirdWordArray.length)];
+<<<<<<< HEAD
      fourthWord = fourthWordArray[Math.floor(Math.random() * fourthWordArray.length)];
      //Picks a random word from all the lists
      pickAWordArray = [firstWord, secondWord, thirdWord];
@@ -17,6 +18,10 @@
      //Picks a random word from all the lists
      //These next 2 lines are used for the main quote body: A list of the potential quote bodies, and the random quote body picker.
      quoteBodyArray = [`Did you know that ${firstWord} along with ${secondWord} can be used to craft ${thirdWord}? We didn't!`, `You can dismantle ${firstWord} to get ${secondWord} and ${thirdWord}! It's strange, but Works!`, `${pickAWord} is one of the most powerful items in the game! Couldn't tell you why though!`, `${pickAWord}, an extremely valuable item, can be traded for lots of money!`, `${pickAWord}, a basically useless item, is probably best thrown into the nearest trash bin!`, `According to the ancient texts, ${thirdWord} grants magical properties to ${pickAWord}`, `Did you know ingesting ${pickAWord} will transport you to ${fourthWord}? Makes no damn sense.`, `Wandering around in ${fourthWord} grants a higher chance to find ${pickAWord}.`];
+=======
+     //These next 2 lines are used for the main quote body: A list of the potential quote bodies, and the random quote body picker.
+     quoteBodyArray = [`Did you know that ${firstWord} along with ${secondWord} can be used to craft ${thirdWord}? We didn't!`, `You can dismantle ${thirdWord} to get ${firstWord} and ${secondWord}! It's strange, but Works!`, `${thirdWord} is one of the most powerful items in the game! Couldn't tell you why though!`, `${firstWord}, an extremely valuable item, can be traded for lots of money!`, `${secondWord}, a basically useless item, is probably best thrown into the nearest trash bin!`];
+>>>>>>> c01b29946cf1c84d2d09d34a369294ffdfb3ea70
      quoteBody = quoteBodyArray[Math.floor(Math.random() * quoteBodyArray.length)];
      return console.log(quoteBody);
  }
